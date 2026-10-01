@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tech Server Stock IA</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+        }
+
+        header {
+            background: #111827;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 26px;
+        }
+
+        header p {
+            margin: 6px 0 0;
+            color: #22c55e;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            font-size: 18px;
+        }
+
+        .numero {
+            font-size: 32px;
+            font-weight: bold;
+            color: #16a34a;
+        }
+
+        .menu {
+            margin-top: 25px;
+            display: grid;
+            gap: 12px;
+        }
+
+        button {
+            padding: 16px;
+            border: none;
+            border-radius: 10px;
+            background: #16a34a;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #15803d;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Tech Server Stock IA</h1>
+    <p>Controle inteligente de estoque</p>
+</header>
+
+<div class="container">
+
+    <div class="cards">
+
+        <div class="card">
+            <h2>Produtos</h2>
+            <div class="numero">2</div>
+        </div>
+
+        <div class="card">
+            <h2>Estoque normal</h2>
+            <div class="numero">1</div>
+        </div>
+
+        <div class="card">
+            <h2>Estoque baixo</h2>
+            <div class="numero">1</div>
+        </div>
+
+        <div class="card">
+            <h2>Sem estoque</h2>
+            <div class="numero">0</div>
+        </div>
+
+    </div>
+
+    <div class="menu">
+
+        <button>📦 Produtos</button>
+
+        <button>🔄 Movimentações</button>
+
+        <button>⚠️ Estoque baixo</button>
+
+        <button>📊 Relatórios</button>
+
+        <button>👤 Usuários</button>
+
+    </div>
+
+</div>
+
+</body>
+</html>
